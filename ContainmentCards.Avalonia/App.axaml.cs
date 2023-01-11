@@ -7,6 +7,7 @@ using ContainmentCards.Avalonia.Views;
 namespace ContainmentCards.Avalonia;
 public partial class App : Application
 {
+    public const string MenuMusic = "SKG Records - Sabotage - Official Music.ogg";
     public override void Initialize()
     {
         AvaloniaXamlLoader.Load(this);

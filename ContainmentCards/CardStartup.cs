@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ContainmentCards;
+public abstract class CardStartup
+{
+    public abstract ICard GetCard();
+    public abstract object this[string description]
+    {
+        get;
+    }
+}
