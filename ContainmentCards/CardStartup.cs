@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 namespace ContainmentCards;
 public abstract class CardStartup
 {
-    public abstract ICard GetCard();
-    public abstract object this[string description]
+    public abstract T GetProperty<T>(string key)
     {
-        get;
+        /* Return generic type T. */
     }
 }
